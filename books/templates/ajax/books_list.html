@@ -1,0 +1,11 @@
+{% for books in data %}
+	<div class="col-lg-4 col-md-6 mb-4">
+		<div class="card shadow">
+		<img src="/media/{{books.image}}" class="card-img-top" alt="{{books.title}}">
+		<div class="card-body">
+			<h6><b>{{books.title}} </b></h6>
+		</div>
+		</div>
+	</div>
+{% endfor %}
+			
